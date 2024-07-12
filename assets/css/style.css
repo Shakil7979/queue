@@ -1,11 +1,15 @@
  
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 html{
 	font-size: 62.5%;
+	overflow-x: hidden;
 }
 body{	
 	font-size: 1.6rem; 
 	font-weight: 400;
+	overflow-x: hidden;
 	font-family: "Inter", sans-serif;
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -57,6 +61,11 @@ ul li a,a{
 	font-style: normal;
 	font-weight: 400;
 	line-height: 167%;
+	transition: 0.3s;
+}
+
+.menu ul li a:hover {
+	opacity: 0.83;
 }
 
 .header {
@@ -120,6 +129,10 @@ ul li a,a{
 	right: 0;
 }
 
+.banner_mobile_img_mobile{
+	display: none;
+}
+
 .section_padding {
 	padding: 93px 0;
 }
@@ -168,6 +181,179 @@ ul li a,a{
 	line-height: 167%;
 }
 
+.section_title h3 {
+	color: var(--Heading-Main, #000);
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 7px;
+}
+
+.section_title p {
+	color: var(--Text-Main, #6F6F6F); 
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 167%;
+}
+
+.section_title {
+	width: 100%;
+	max-width: 693px;
+	text-align: center;
+	margin: 0 auto 50px auto; 
+}
+
+.machine_item img {
+	width: 90px !important;
+	height: 90px !important;
+}
+
+.gym_mobile {
+	width: 326px;
+}
+
+.machin_main_area.section_padding {
+	padding-top: 0 !important;
+}
+
+.gym_text h3 {
+	color: #FFF;
+	font-family: "Urbanist", sans-serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin: 48px 0 14px 0;
+}
+
+.gym_main_area{
+	background: url(../images/gym/bg.png) no-repeat scroll center center / 100% 100%;
+}
+
+.gym_mobile_box {
+	padding-top: 24px;
+	display: flex;
+	gap: 7px;
+	align-items: flex-end;
+}
+
+.gym_qr_code {
+	width: 204px;
+	margin-bottom: 27px;
+}
+
+.gym_text p {
+	color: #FFF; 
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 167%;
+	margin-bottom: 16px;
+}
+
+.contact_box {
+	border-radius: 30px;
+	background: #F8F9FF;
+	max-width: 779px;
+	width: 100%;
+	padding: 60px 45px 35px 45px;
+	margin: 0 auto;
+}
+
+.contact_box .section_title p { 
+	font-size: 18px; 
+}
+
+.input_group label {
+	color: var(--Heading-Main, #000);
+	font-family: "Urbanist", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 15px;
+}
+
+
+.input_group textarea ,
+.input_group input {
+	border-radius: 50px;
+	background: #FFF;
+	border: none;
+	width: 100%;
+	height: 67px;
+	padding: 17px 23px;
+	color: #B8B8B8; 
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 167%;
+}
+
+.input_group textarea {
+	resize: none;
+	height: 165px; 
+}
+
+.input_group {
+	margin-bottom: 23px;
+}
+
+.btn_1 {
+	border-radius: 50px;
+	background: #1A4AAD;
+	width: 209px;
+	padding: 17px 0;
+	border: none;
+	color: #FFF;
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	transition: 0.3s;
+}
+
+
+.btn_1:hover {
+	opacity: 0.83;
+}
+
+.contact_btn {
+	text-align: end;
+}
+
+.footer_area{
+	padding: 65px 0 35px 0;
+	background: url(../images/footer/bg.png) no-repeat scroll center center / 100% 100%;
+}
+
+.footer_text {
+	text-align: end;
+}
+
+.footer_text .logo a { 
+	justify-content: flex-end;
+	margin-bottom: 63px;
+}
+
+.footer_text_bottom p {
+	color: #BCBCBC; 
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 167%;
+}
+
+.feature_margin_0 {
+	margin: 0;
+}
+
+
 
 /*======================  End Page  ======================*/
 
@@ -175,5 +361,7 @@ ul li a,a{
 /* 
 
 font-family: "Raleway", sans-serif;
+
+font-family: "Urbanist", sans-serif;
 
  */

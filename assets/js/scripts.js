@@ -7,13 +7,29 @@ $(document).ready(function(){
 	// });
 
 	// Banner Carousel
-	// $('.banner_carousel').owlCarousel({
-	// 	items:1,
-	// 	loop:true,
-	// 	nav:true,
-	// 	dots:true,
-	// 	autoplay:true,
-	// });
+	$('.machine_carousel').owlCarousel({
+		items:10.4,
+		loop:true,
+		nav:false,
+		margin:64,
+		center:true,
+		dots:false,
+		autoplay:true,
+		responsive : {
+			// breakpoint from 0 up
+			0 : { 
+				items:5.4,
+			},
+			// breakpoint from 480 up
+			480 : {
+				items:7.4,
+			},
+			// breakpoint from 768 up
+			768 : {
+				items:10.4,
+			}
+		}
+	});
 
 
 

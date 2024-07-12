@@ -4,20 +4,231 @@
     }
 }
 
-@media all and (max-width: 1199px){
-
+@media all and (max-width: 1200px){
+    .banner_mobile_img img {
+        width: 598px;
+    }
+    .banner_text h3 { 
+        font-size: 42px; 
+    }
+    .banner_text p { 
+        font-size: 22px; 
+        line-height: 152%; 
+    }
+    .banner_qr img {
+        width: 125px;
+    }
+    .feature_text h3 { 
+        font-size: 30px; 
+    }
+    .feature_text p { 
+        font-size: 18px; 
+        line-height: 151%;
+    }
+    .feature_title h3 { 
+        font-size: 40px; 
+    }
+    .machine_item img {
+        width: 65px !important;
+        height: 65px !important;
+    }
+    .gym_text h3 { 
+        font-size: 28px; 
+    }
+    .gym_text p { 
+        font-size: 16px; 
+    }
+    .section_title h3 { 
+        font-size: 40px; 
+    }
+    .input_group label { 
+        font-size: 16px; 
+        margin-bottom: 8px;
+    }
+    .footer_text_bottom p { 
+        font-size: 16px; 
+        line-height: 167%;
+    }
+    .gym_qr_code {
+        width: 117px; 
+    }
+    .gym_mobile {
+        width: 278px;
+    }
 }
 
 @media all and (max-width: 991px){
-	
+	.banner_mobile_img{
+        display: none;
+    }
+    .banner_mobile_img_mobile{
+        display: block;
+    }
+    .banner_mobile_img_mobile img{
+        width: 100%;
+    }
+    .banner_area { 
+        padding: 117px 0 66px 0; 
+    }
+    .banner_text {
+        margin-top: 30px;
+    }
+    .gym_qr_code {
+        width: 63px;
+    }
+    .gym_mobile {
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 767px){
-	
+	.logo a p { 
+        font-size: 16px; 
+    }
+    .logo a img {
+        width: 42px;
+    }
+    .menu ul li a { 
+        font-size: 16px; 
+    }
+    .banner_text { 
+        text-align: center;
+    }
+    .banner_logo ul { 
+        justify-content: center;
+    }
+    .banner_logo ul li a img {
+        width: 104px;
+    }
+    .banner_text h3 {
+        font-size: 33px;
+    }
+    .banner_text p {
+        font-size: 18px;
+        line-height: 149%;
+    }
+    .feature_title h3 {
+        font-size: 32px;
+    }
+    .feature_title {
+        margin-bottom: 30px;
+    }
+    .section_padding {
+        padding: 30px 0;
+    }
+    .feature_text {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .feature_text h3 {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+    .feature_text p {
+        font-size: 16px;
+        line-height: 151%;
+    }
+    .feature_single.feature_reverse .row { 
+        flex-direction: column-reverse;
+    }
+    .feature_single {
+        margin-bottom: 35px;
+    }
+    .section_title h3 {
+        font-size: 24px;
+    }
+    .section_title p { 
+        font-size: 16px; 
+    }
+    .machine_item img {
+        width: 55px !important;
+        height: 55px !important;
+    }
+    .gym_text {
+        text-align: center;
+    }
+    .contact_box .section_title p {
+        font-size: 16px;
+        line-height: 123%;
+    }
+    .input_group textarea, .input_group input {
+        border-radius: 42px; 
+        height: 50px;
+        padding: 17px 18px; 
+        font-size: 16px; 
+        line-height: 167%;
+    }
+    .input_group textarea { 
+        height: 133px !important;
+    }
+    .btn_1 { 
+        font-size: 16px; 
+    }
+    .footer_text .logo a {
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+    .footer_text_bottom {
+        text-align: center;
+    }
+    .contact_btn {
+        text-align: center;
+    }
 }
 
 @media all and (max-width: 575px){
-	
+    .menu ul li a {
+        font-size: 14px;
+    }
+    .banner_text h3 {
+        font-size: 27px;
+    }
+    .banner_text p {
+        font-size: 14px; 
+    }
+    .banner_qr img {
+        width: 67px;
+    }
+    .feature_title h3 {
+        font-size: 25px;
+    }
+    .feature_text p {
+        font-size: 14px; 
+    }
+    .section_title h3 {
+        font-size: 18px;
+    }
+    .section_title p {
+        font-size: 14px;
+    }
+    .gym_text p {
+        font-size: 14px;
+    }
+    .input_group label {
+        font-size: 14px; 
+    }
+    .input_group textarea, .input_group input {
+        border-radius: 15px;
+        height: 45px;
+        padding: 17px 18px;
+        font-size: 14px;
+        line-height: 167%;
+    }
+    .contact_box { 
+        padding: 34px 20px 20px 20px; 
+    }
+    .gym_mobile_box {
+        padding-top: 0; 
+    }
+    .btn_1 {
+        font-size: 14px;
+    }
+    .footer_text_bottom p {
+        font-size: 14px; 
+    }
+    .contact_box .section_title p {
+        font-size: 14px; 
+    }
 }
 
 @media all and (max-width: 450px){
