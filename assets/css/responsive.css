@@ -229,6 +229,12 @@
     .contact_box .section_title p {
         font-size: 14px; 
     }
+    .menu ul { 
+        gap: 12px;
+    }
+    .logo {
+        flex: 0 0 34%;
+    }
 }
 
 @media all and (max-width: 450px){
