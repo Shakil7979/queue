@@ -33,6 +33,28 @@ $(document).ready(function(){
 
 
 
+	$(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll > 0) {
+            $('.header_area').addClass('header_area_fixed');
+        } else {
+            $('.header_area').removeClass('header_area_fixed');
+        }
+    });
 
+	$(".menu ul li a").click(function () {
+		$("html,body").animate(
+		  {
+			scrollTop: $($(this).attr("href")).offset().top,
+		  },
+		  1000
+		);
+		return false;
+	  });
+
+	  var currentYear = new Date().getFullYear();
+    $('#currentYear').text(currentYear);
+
+	AOS.init();
 
 });

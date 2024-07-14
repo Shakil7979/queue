@@ -37,7 +37,13 @@ ul li a,a{
 	width: 100%; 
 	background: transparent;
 	padding: 37px 0;
-	z-index: 9;
+	z-index: 999;
+}
+
+.header_area_fixed { 
+	position: fixed;
+	background: #366CCC;
+	padding: 22px 0; 
 }
 
 .banner_area {
@@ -341,6 +347,7 @@ ul li a,a{
 	margin-bottom: 63px;
 }
 
+.footer_text_bottom a,
 .footer_text_bottom p {
 	color: #BCBCBC; 
 	font-size: 18px;

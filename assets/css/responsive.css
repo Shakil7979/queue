@@ -174,11 +174,27 @@
     .contact_btn {
         text-align: center;
     }
+    .gym_mobile {
+        width: 30%;
+    }
+    .gym_mobile_box { 
+        justify-content: center;
+    }
+
 }
 
 @media all and (max-width: 575px){
     .menu ul li a {
+        font-size: 12px;
+    }
+    .logo a p {
         font-size: 14px;
+    }
+    .footer_area { 
+        background: url(../images/footer/bg.png) no-repeat scroll center center / cover;
+    }
+    .gym_main_area {
+        background: url(../images/gym/bg.png) no-repeat scroll center center / cover;
     }
     .banner_text h3 {
         font-size: 27px;
@@ -230,7 +246,7 @@
         font-size: 14px; 
     }
     .menu ul { 
-        gap: 12px;
+        gap: 7px;
     }
     .logo {
         flex: 0 0 34%;
